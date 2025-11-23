@@ -23,23 +23,19 @@ try {
 // Démarrer la session
 session_start();
 
-// Fonction pour vérifier si l'utilisateur est connecté
 function isLoggedIn() {
     return isset($_SESSION['user_id']);
 }
 
-// Fonction pour vérifier si l'utilisateur est admin
 function isAdmin() {
     return isset($_SESSION['role']) && $_SESSION['role'] === 'admin';
 }
 
-// Fonction pour rediriger
 function redirect($url) {
     header("Location: $url");
     exit();
 }
 
-// Fonction pour nettoyer les données
 function cleanInput($data) {
     return htmlspecialchars(strip_tags(trim($data)));
 }

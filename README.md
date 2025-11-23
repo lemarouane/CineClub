@@ -72,14 +72,12 @@ CineClub est une plateforme web complète pour gérer un club de cinéma local. 
 
 ### Administrateur
 - **Email:** admin@cineclub.com
-- **Mot de passe:** admin123
+- **Mot de passe:** 12345678
 
 ### Membres
-- **Email:** marie.dupont@email.com
-- **Mot de passe:** password
+- **Email:** m.haddad@uae.ac.ma
+- **Mot de passe:** 12345678
 
-- **Email:** pierre.martin@email.com
-- **Mot de passe:** password
 
 ## 📁 Structure du Projet
 
@@ -123,11 +121,7 @@ cineclub/
 
 ## 🎨 Diagrammes UML
 
-### Use Case Diagram
-Importez le code du fichier "Use Case Diagram" dans https://app.diagrams.net/
 
-### Class Diagram
-Importez le code du fichier "Class Diagram" dans https://app.diagrams.net/
 
 ## 🔒 Sécurité
 
